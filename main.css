@@ -1,5 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #7178F4;
+  background: radial-gradient(circle, rgba(132, 197, 212, ) 10%, rgba(113, 120, 244, 1) 20%, rgba(143, 145, 149, 1) 60%)
 }
