@@ -10,3 +10,16 @@ body {
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: url(images/blue-purple-gradient-fluid-abstract-minimalistic-background_6241863.jpg!bw700 );
 }
+
+/* Responsive Design Media Queries */
+/* Small phones */
+@media (max-width: 480px) {}
+
+/* Phones */
+@media (max-width: 768px) {}
+
+/* Tablets / small laptops */
+@media (max-width: 1024px) {}
+
+/* Desktops */
+@media (min-width: 1025px) {}
