@@ -24,6 +24,12 @@ main {
   padding: 1rem;
 }
 
+.logo img {
+  width: 64px;
+  height: auto;
+  color: white;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
