@@ -23,11 +23,32 @@ main {
   max-width: 420px;
   padding: 1rem;
 }
+.portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
 
 .logo img {
-  width: 64px;
+  width: 70px;
   height: auto;
   color: white;
+}
+.title {
+  margin-top: 1rem;
+  text-align: center;
+}
+.title h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.title h2{
+  color: white;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* Responsive Design Media Queries */
