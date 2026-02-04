@@ -11,6 +11,12 @@ body {
   background: url(images/blue-purple-gradient-fluid-abstract-minimalistic-background_6241863.jpg!bw700 );
 }
 
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
