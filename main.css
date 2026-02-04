@@ -30,6 +30,11 @@ main {
   text-align: center;
 }
 
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
 
 /* Responsive Design Media Queries */
 /* Small phones */
