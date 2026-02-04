@@ -17,6 +17,20 @@ main {
   place-items: center;
 }
 
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 1rem;
+}
+
+.portal-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
