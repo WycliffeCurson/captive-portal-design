@@ -51,6 +51,12 @@ main {
   margin-top: 0.5rem;
 }
 
+.title p {
+  color: white;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
