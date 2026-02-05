@@ -8,8 +8,8 @@ body {
   min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: #42047E;
-      background: linear-gradient(90deg, rgba(66, 4, 126, 1) 0%, rgba(7, 244, 158, 1) 100%)
+  background: #42047E;
+  background: linear-gradient(90deg, rgba(66, 4, 126, 1) 0%, rgba(7, 244, 158, 1) 100%);
 }
 
 main {
@@ -23,6 +23,7 @@ main {
   max-width: 420px;
   padding: 1rem;
 }
+
 .portal {
   display: flex;
   flex-direction: column;
@@ -36,16 +37,19 @@ main {
   height: auto;
   color: white;
 }
+
 .title {
   margin-top: 1rem;
   text-align: center;
 }
+
 .title h1 {
   color: white;
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
-.title h2{
+
+.title h2 {
   color: white;
   font-size: 1rem;
   margin-top: 0.5rem;
