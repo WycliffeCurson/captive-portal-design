@@ -1,23 +1,52 @@
-# captive-portal-design
+# Captive Portal Design
 
-A design for a public WiFi captive portal with a modern gradient background and responsive layout.
+A modern, responsive WiFi captive portal interface for SPEED.NET WIFI with a vibrant gradient background and clean user experience.
 
 ## Project Structure
 
-- **index.html** - Main HTML file with responsive meta viewport configuration
-- **main.css** - Stylesheet with gradient background and base styling
+```
+.
+├── index.html                          # Main HTML file
+├── main.css                            # Stylesheet and responsive design
+├── icons/                              # SVG icon assets
+├── images/                             # Background and image assets
+├── README.md                           # Project documentation
+└── notes.md                            # Development notes
+```
 
 ## Features
 
-- Responsive design with mobile-first approach
-- Modern radial gradient background (blue to purple tones)
-- Clean system font stack for cross-platform compatibility
-- Reset styles for consistent rendering across browsers
+- **Responsive Design** - Mobile-first approach optimized for all screen sizes
+- **Modern Gradient Background** - Linear gradient from vibrant purple (#42047E) to cyan (rgba(7, 244, 158, 1))
+- **WiFi Portal Interface** - Logo, branding, and connection button
+- **Plans Section** - Display available WiFi plans to users
+- **Clean Typography** - System font stack for optimal cross-platform rendering
+- **Normalized Styling** - Reset styles for consistent browser rendering
+
+## Page Components
+
+1. **Logo Section** - WiFi icon for brand recognition
+2. **Title Section** - SPEED.NET WIFI branding with welcome message
+3. **Connect Button** - Call-to-action button for WiFi connection
+4. **Plans Cards** - Section to display available WiFi plans
 
 ## Getting Started
 
-Open `index.html` in a web browser to view the captive portal.
+1. Open `index.html` in a web browser
+2. The portal will display with full responsive styling
+3. Customize colors, text, and plans in the HTML and CSS files
 
-## Styling
+## Customization
 
-The portal uses a gradient background transitioning from light blue through purple to gray, creating a modern aesthetic suitable for public WiFi portals.
+- **Gradient Colors** - Modify the `linear-gradient()` values in `body` CSS rule
+- **Branding** - Update the WiFi logo and text in the title section
+- **Plans** - Add plan cards to the `.plans-cards` container
+- **Styling** - Adjust colors, fonts, and spacing in `main.css`
+
+## Browser Support
+
+Works on all modern browsers supporting:
+- CSS Flexbox
+- CSS Gradients
+- CSS Grid
+- Viewport meta tags
