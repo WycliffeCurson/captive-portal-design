@@ -60,6 +60,16 @@ main {
   font-size: 0.875rem;
   margin-top: 0.5rem;
 }
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 /* Responsive Design Media Queries */
 /* Small phones */
