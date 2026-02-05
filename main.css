@@ -72,6 +72,17 @@ button {
   cursor: pointer;
 }
 
+.plans{
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.plams h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
