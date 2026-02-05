@@ -83,6 +83,53 @@ button {
   margin-bottom: 1rem;
 }
 
+.plans-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+/* NAV */
+.plans-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.plans-nav .tab {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 999px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.plans-nav .tab.active {
+  background: #6a00ff;
+  color: white;
+}
+
+/* SLIDER */
+.plans-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.plans-track {
+  display: flex;
+  width: 300%;
+  /* 3 panels */
+  transition: transform 0.4s ease;
+}
+
+.plans-panel {
+  width: 100%;
+  padding: 0.5rem;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
