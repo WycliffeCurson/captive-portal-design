@@ -29,7 +29,7 @@ main {
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .logo img {
@@ -72,19 +72,19 @@ button {
   cursor: pointer;
 }
 
-.plans{
+.plans {
   margin-top: 1rem;
   text-align: center;
   color: white;
 }
 
-.plams h3 {
+.plans h3 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
 .plans-card {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 1rem;
   padding: 1rem;
   overflow: hidden;
@@ -120,12 +120,12 @@ button {
 
 .plans-track {
   display: flex;
-  width: 300%;
   /* 3 panels */
   transition: transform 0.4s ease;
 }
 
 .plans-panel {
+  flex: 0 0 100%;
   width: 100%;
   padding: 0.5rem;
 }
