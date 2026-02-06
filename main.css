@@ -136,6 +136,7 @@ button {
   padding: 0.75rem;
   margin-bottom: 0.5rem;
   color: black;
+  cursor: pointer;
 }
 
 .shared-card {
@@ -144,6 +145,7 @@ button {
   padding: 0.75rem;
   margin-bottom: 0.5rem;
   color: black;
+  cursor: pointer;
 }
 
 .Family-card {
@@ -152,6 +154,7 @@ button {
   padding: 0.75rem;
   margin-bottom: 0.5rem;
   color: black;
+  cursor: pointer;
 }
 
 /* Responsive Design Media Queries */
