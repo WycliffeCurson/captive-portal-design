@@ -106,7 +106,8 @@ main {
 
 .plans-nav .tab {
   flex: 1;
-  padding: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
   border-radius: 999px;
   border: none;
   background: #eee;
