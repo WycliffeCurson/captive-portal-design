@@ -76,7 +76,7 @@ main {
 .connect:hover {
   background-color: #6a00ff;
   color: white;
-  border: black;
+  border: 1px solid black;
 }
 
 .modal {
