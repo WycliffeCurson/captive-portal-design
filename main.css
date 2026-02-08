@@ -165,6 +165,18 @@ button {
   margin-top: 1rem;
 }
 
+.contact-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: black;
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
