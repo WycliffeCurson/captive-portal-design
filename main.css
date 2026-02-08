@@ -151,6 +151,12 @@ main {
   margin-bottom: 0.5rem;
   color: black;
   cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.individual-card:hover {
+  background-color: #6a00ff;
+  color: white;
 }
 
 .shared-card {
@@ -160,6 +166,12 @@ main {
   margin-bottom: 0.5rem;
   color: black;
   cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.shared-card:hover {
+  background-color: #6a00ff;
+  color: white;
 }
 
 .Family-card {
@@ -169,6 +181,12 @@ main {
   margin-bottom: 0.5rem;
   color: black;
   cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.Family-card:hover {
+  background-color: #6a00ff;
+  color: white;
 }
 
 .contact-card {
