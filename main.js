@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
   const tabs = document.querySelectorAll(".tab");
   const track = document.querySelector(".plans-track");
 
@@ -9,21 +10,21 @@ document.addEventListener("DOMContentLoaded", () => {
       track.style.transform = `translateX(-${index * 100}%)`;
     });
   });
-});
 
-const modal = document.getElementById("modal");
-const openBtn = document.getElementById("openModal");
-const closeBtn = document.getElementById("closeModal");
+  const modal = document.getElementById("modal");
+  const openBtn = document.getElementById("openModal");
+  const closeBtn = document.getElementById("closeModal");
 
-openBtn.addEventListener("click", () => {
-  modal.classList.add("open");
-});
+  openBtn.addEventListener("click", () => {
+    modal.classList.add("open");
+  });
 
-closeBtn.addEventListener("click", () => {
-  modal.classList.remove("open");
-});
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("open");
+  });
 
-// close when clicking overlay
-modal.querySelector(".modal-overlay").addEventListener("click", () => {
-  modal.classList.remove("open");
+  modal.querySelector(".modal-overlay").addEventListener("click", () => {
+    modal.classList.remove("open");
+  });
+
 });
