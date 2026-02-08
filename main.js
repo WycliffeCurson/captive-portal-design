@@ -10,3 +10,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+const modal = document.getElementById("modal");
+const openBtn = document.getElementById("openModal");
+const closeBtn = document.getElementById("closeModal");
+
+openBtn.addEventListener("click", () => {
+  modal.classList.add("open");
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("open");
+});
+
+// close when clicking overlay
+modal.querySelector(".modal-overlay").addEventListener("click", () => {
+  modal.classList.remove("open");
+});

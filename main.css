@@ -79,6 +79,46 @@ main {
   border: black;
 }
 
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 999;
+}
+
+/* visible state */
+.modal.open {
+  display: block;
+}
+
+/* overlay */
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* card */
+.modal-card {
+  position: relative;
+  max-width: 360px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  opacity: 0;
+    transform: translateY(-40%) scale(0.95);
+    transition: 0.3s ease;
+}
+
+.modal.open .modal-card {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
 .plans {
   margin-top: 1rem;
   text-align: center;
