@@ -138,6 +138,12 @@ main {
   padding: 0.5rem;
 }
 
+.plans-panel p{
+  color: black;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
 .individual-card {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 0.5rem;
