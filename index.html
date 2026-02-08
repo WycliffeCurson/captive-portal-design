@@ -27,11 +27,48 @@
           <div class="modal-overlay"></div>
 
           <div class="modal-card">
-            <h3>Individual Plan</h3>
-            <p>Unlimited access for one device.</p>
-            <button id="closeModal">Close</button>
+
+            <!-- Modal navigation -->
+            <div class="modal-nav">
+              <button class="modal-tab active">Login</button>
+              <button class="modal-tab">Voucher</button>
+              <button class="modal-tab">Receipt</button>
+            </div>
+
+            <!-- Sliding content -->
+            <div class="modal-viewport">
+              <div class="modal-track">
+
+                <!-- Credentials -->
+                <section class="modal-panel">
+                  <h3>Login</h3>
+                  <input type="text" placeholder="Username">
+                  <input type="password" placeholder="Password">
+                  <button class="connect">Connect</button>
+                </section>
+
+                <!-- Voucher -->
+                <section class="modal-panel">
+                  <h3>Voucher</h3>
+                  <input type="text" placeholder="Enter voucher code">
+                  <button class="connect">Redeem</button>
+                </section>
+
+                <!-- Receipt -->
+                <section class="modal-panel">
+                  <h3>Receipt</h3>
+                  <input type="text" placeholder="Receipt number">
+                  <button class="connect">Verify</button>
+                </section>
+
+              </div>
+            </div>
+
+            <button id="closeModal" class="modal-close">Close</button>
+
           </div>
         </div>
+
         <div class="plans">
           <h3>-------Available Plans-------</h3>
           <div class="plans-card">

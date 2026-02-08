@@ -104,19 +104,75 @@ main {
   max-width: 360px;
   margin: auto;
   top: 50%;
-  transform: translateY(-50%);
   background: white;
   border-radius: 1rem;
   padding: 1.5rem;
   text-align: center;
+
   opacity: 0;
-    transform: translateY(-40%) scale(0.95);
-    transition: 0.3s ease;
+  transform: translateY(-40%) scale(0.95);
+  transition: 0.3s ease;
 }
 
 .modal.open .modal-card {
   opacity: 1;
   transform: translateY(-50%) scale(1);
+}
+
+/* MODAL NAV */
+.modal-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.modal-tab {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 999px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.modal-tab.active {
+  background: #6a00ff;
+  color: white;
+}
+
+/* SLIDER */
+.modal-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.modal-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.modal-panel {
+  flex: 0 0 100%;
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* FORM ELEMENTS */
+.modal-panel input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.modal-panel button {
+  width: 100%;
+}
+
+.modal-close {
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .plans {
