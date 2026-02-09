@@ -328,6 +328,14 @@ main {
   color: black;
 }
 
+.powered-by {
+  display: block;
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Responsive Design Media Queries */
 /* Small phones */
 @media (max-width: 480px) {}
