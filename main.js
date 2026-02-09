@@ -19,15 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
   ====================== */
   const modal = document.getElementById("modal");
   const openBtn = document.getElementById("openModal");
-  const closeBtn = document.getElementById("closeModal");
   const overlay = modal.querySelector(".modal-overlay");
 
   openBtn.addEventListener("click", () => {
     modal.classList.add("open");
-  });
-
-  closeBtn.addEventListener("click", () => {
-    modal.classList.remove("open");
   });
 
   overlay.addEventListener("click", () => {
