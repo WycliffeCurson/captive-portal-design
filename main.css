@@ -173,7 +173,7 @@ main {
   margin-bottom: 0.75rem;
 }
 
-.modal-panel input :hover {
+.modal-panel input:hover {
   border: 1px solid #6a00ff;
 }
 

@@ -23,6 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   openBtn.addEventListener("click", () => {
     modal.classList.add("open");
+
+    // reset modal slider
+    modalTabs.forEach(t => t.classList.remove("active"));
+    modalTabs[0].classList.add("active");
+    modalTrack.style.transform = "translateX(0)";
   });
 
   overlay.addEventListener("click", () => {
