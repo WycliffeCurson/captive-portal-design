@@ -12,3 +12,8 @@
 
 /* Desktops */
 @media (min-width: 1025px) {}
+
+
+change plan card;
+make 1 hours stand out (bold)
+add arrown to plan cards
