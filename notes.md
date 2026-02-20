@@ -17,3 +17,8 @@
 change plan card;
 make 1 hours stand out (bold)
 add arrown to plan cards
+
+Login: demo / 1234 or testuser / pass123
+Expired account: expired / exp999
+Vouchers: SPEED-1234, SPEED-5678 (valid), SPEED-USED (already redeemed)
+Receipts: RCP001, RCP002 (verified), RCP003 (pending)
